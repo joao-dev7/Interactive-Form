@@ -81,7 +81,6 @@ const textMessage = formItem.querySelector("p");
 textMessage.innerText = message;
 
 formItem.className = "form-content erro";
-errosContador++;
 }
 
 function checkEmail(email) {
